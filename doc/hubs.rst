@@ -9,8 +9,10 @@ Eventlet has multiple hub implementations, and when you start using it, it tries
 
 **epolls**
     Linux.
+**kqueue**
+    BSD, OSX.
 **poll**
-    On platforms that support it
+    On platforms that support it.
 **selects**
     Lowest-common-denominator, available everywhere.
 **pyevent**
